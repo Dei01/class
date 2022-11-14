@@ -29,6 +29,7 @@
 
 # Creating a window screen
 # import required modules
+
 import turtle
 import time
 import random
@@ -125,6 +126,7 @@ segments = []
  
  
 # Main Gameplay
+
 while True:
     wn.update()
     if head.xcor() > 290 or head.xcor() < -290 or head.ycor() > 290 or head.ycor() < -290:
