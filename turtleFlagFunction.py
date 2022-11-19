@@ -47,14 +47,45 @@ def drawMoon(x, y, color, radius):
 	turtle.end_fill()
 
 
+def pattern(clr1,clr2):
+	turtle.width(2)
+	turtle.color('black',clr1)
+	turtle.begin_fill()
+	turtle.circle(75,90)
+	turtle.circle(150,90)
+	turtle.left(90)
+	turtle.circle(-75,90)
+	turtle.end_fill()
+	turtle.left(45)
+	turtle.up()
+	turtle.forward(150*0.35)
+	turtle.right(45)
+	turtle.down()
+	turtle.color(clr1,clr2)
+	turtle.begin_fill()
+	turtle.circle(300*0.20)
+	turtle.end_fill()
+	turtle.left(45)
+	turtle.up()
+	turtle.backward(150*0.35)
+	turtle.down()
+	turtle.left(45)
+
+
+
 # FLAG RECTAINGLES
 drawFillRectangle(-230, 125, 280, 130, 'red')
 drawFillRectangle(-100, 125, 280, 130, 'blue')
 drawFillRectangle(32, 125, 280, 130, 'red')
-
+# YINGYANG
+pattern('yellow','red')
+pattern('yellow','red')
+#CIRCLES
 drawCircle(-200, -100, 'yellow', 20)
 drawMoon(-200, -72, 'yellow', 20)
 drawStar(0, 30, 'yellow', 50)
+
+mainloop()
 
 turtle.hideturtle()
 turtle.done()

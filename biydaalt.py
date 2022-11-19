@@ -25,16 +25,16 @@ print('# 1. Гурвалжны 3 тал өгөгдсөн бол (гурвалж�
 # 2. 100-аас бага тэгш тоонуудыг do оператор ашиглан хэвлэх программ зохио.
 print('# 2. 100-аас бага тэгш тоонуудыг do оператор ашиглан хэвлэх программ зохио.')
 
-# Python program to print Even Numbers in given range
-start, end = 1, 100
-# iterating each number in list
-for num in range(100):
+# # Python program to print Even Numbers in given range
+# start, end = 1, 100
+# # iterating each number in list
+# for num in range(100):
       
-    # checking condition
-    if num % 2 == 0:
-        print(num, end = "")
+#     # checking condition
+#     if num % 2 == 0:
+#         print(num, end = "")
         
-print('\n')
+# print('\n')
 
 
 
@@ -42,11 +42,11 @@ print('\n')
 # # 3. Дурын n тоон цувааны үржвэрийг while оператор ашиглан хэвлэх программ зохио.
 # print('# 3. Дурын n тоон цувааны үржвэрийг while оператор ашиглан хэвлэх программ зохио.')
 
-# x = int(input('Enter random number for loop: '))
-# i = 1
-# while i < x:
-#   print(i,end = " ")
-#   i += 1
+x = int(input('Enter random number for loop: '))
+i = 1
+while i < x:
+  print(i,end = " ")
+  i += 1
 
 
 
