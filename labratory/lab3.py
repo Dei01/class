@@ -75,3 +75,41 @@ for i in num:
 
 # Жнь: (3,5) (11,13) ........ 16
 # Дасгал 9. Тэгш өнцөгт гурвалжны 2 катет өгөгдсөн бол гипотенузыг ол.
+
+#  #Бодлого 3-4 
+
+from re import A
+
+
+def периметр():
+    a = 19
+    b = 21
+    c = 22
+    print( a + b + c )    
+периметр()
+#  #Бодлого 3-5
+# def kvadrattegshtgel():
+
+#     d = int(input('квадтрат тэгштгэлийн шийдийг олох: '))
+
+#     if d > 0:
+#         print('Бодит 2 шийдтэй')
+#     elif d = 0:
+#         print('1 шийдтэй')
+#     elif d < 0:
+#         print('шийдгүй')
+#     else:
+#         print('noting')
+# kvadrattegshtgel()
+
+def sondgoinemeh():
+
+    list = [a, b, c]
+
+    if list % 3:
+        print(a+b+c)
+    else:
+        print('number is not odd')
+sondgoinemeh()
+
+
